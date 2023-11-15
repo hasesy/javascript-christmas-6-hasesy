@@ -27,7 +27,6 @@ class Service {
     return order;
   }
 
-  // 총 주문금액
   totalOrderPrice() {
     const price = this.#orderMenu.totalOrderAmount();
     return price;

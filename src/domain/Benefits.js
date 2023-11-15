@@ -15,7 +15,7 @@ class Benefits {
   #date;
 
   constructor(date) {
-    this.#validateNumber(date); // 1 이상 자연수 검증
+    this.#validateNumber(date); // 자연수 검증
     this.#date = Number(date);
     this.#validateDate(); // 날짜 범위 검증
   }

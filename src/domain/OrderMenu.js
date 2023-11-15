@@ -94,6 +94,7 @@ class OrderMenu {
     }
   }
 
+  // 총 주문금액
   totalOrderAmount() {
     const totalAmount = this.#orderMenu.reduce(
       (sum, item) => sum + item.price * item.count,
